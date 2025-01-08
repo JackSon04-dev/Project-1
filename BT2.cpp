@@ -15,7 +15,7 @@ using namespace std;
 
 NODE *Head = nullptr;  // Biến toàn cục quản lý danh sách liên kết
 	void themSinhVienCuoi() {
-    for (int i = 0; i < 2; ++i) {
+    for (int i = 0; i < 5; ++i) {
         SINHVIEN sv;
         cout << "Nhap thong tin sinh vien thu " << i + 1 << ":\n";
         cout << "MSSV: ";
